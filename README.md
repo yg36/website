@@ -1,74 +1,52 @@
-# Welcome to FURNISH
-vercel link: https://website-nu-rose-34.vercel.app/
+# Website
 
-## Project info
+## Overview
 
-**URL**: https://lovable.dev/projects/6a1599d8-c6c2-475a-926b-0981b5128c13
+Furniture website frontend built with TypeScript and React-style components, deployed on Vercel.
 
-## How can I edit this code?
+Project type: JavaScript/React application.
 
-There are several ways of editing your application.
+## What This Repository Contains
 
-**Use Lovable**
+- `README.md`
+- `index.html`
+- `package.json`
+- `src/App.css`
+- `src/App.tsx`
+- `src/assets/circular-concept.jpg`
+- `src/assets/hero-furniture.jpg`
+- `src/assets/workspace-1.jpg`
+- `src/components/CallToAction.tsx`
+- `src/components/Circularity.tsx`
+- `src/components/Features.tsx`
+- `src/components/Footer.tsx`
+- `src/components/Hero.tsx`
+- `src/components/Navigation.tsx`
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6a1599d8-c6c2-475a-926b-0981b5128c13) and start prompting.
+## Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+Vite/React, React, HTML/CSS
 
-**Use your preferred IDE**
+## How To Run / Use
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+For production validation, run:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm run build
+```
 
-**Use GitHub Codespaces**
+## Current Status
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+This repository has enough structure to be understandable from the README and file layout.
 
-## What technologies are used for this project?
+## Notes For Reviewers
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/6a1599d8-c6c2-475a-926b-0981b5128c13) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- Start with the overview and key files above.
+- If this is a notebook repository, run it in a clean Jupyter or VS Code notebook environment.
+- If this is a frontend app, run the install/build commands before judging the project.
+- Some older practice repositories are kept public for learning history, not as primary portfolio pieces.
